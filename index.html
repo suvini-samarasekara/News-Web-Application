@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turn News</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./function.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">World on Your Palm</a>
+            
+        </div>
+    </nav>
+    <!--<div class="wrapper">
+      <div class="container">
+        <input type="text" class="input" placeholder="Search">
+        <div class="close-btn">&times;</div>
+      </div>
+    </div>-->
+    <div class="search__container">
+        <div id="inputField" style="text-align: center;">
+            <input type="text" placeholder="Browse your World!!" id="searchTerm">
+            <button type="button" onclick="Search();">Search here</button>
+        </div>
+    </div>
+
+    <main>
+        <section class="news-grid"></section>
+    </main>
+</body>
+</html>
